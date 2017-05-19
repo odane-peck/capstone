@@ -1,0 +1,12 @@
+# ----------------------
+# Flask
+# ----------------------
+flask
+Flask-WTF
+Flask-SQLAlchemy
+Flask-Migrate
+psycopg2
+# ----------------------
+# Production Server
+# ----------------------
+gunicorn

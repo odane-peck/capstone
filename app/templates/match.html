@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1 class="page-header">Your Match</h1>
+
+<ul>
+    {% for user in mymatch %}
+    <li>{{user.name}}<li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
